@@ -227,7 +227,7 @@ var UIController = ( function() {
         },
 
         clearFields: function() {
-            var fields, fieldsArray;
+            var fields, fieldsArr;
 
             fields = document.querySelectorAll(DOMstrings.inputDescription + ', ' + DOMstrings.inputValue); 
             
@@ -423,7 +423,3 @@ var controller = ( function(budgetCtrl, UICtrl) {
 
 
 controller.init();
-
-
-
-
